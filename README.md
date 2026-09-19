@@ -135,7 +135,9 @@ int handle_remote_login_secure(NetworkPacket *pkt, SessionContext *ctx) {
  **5.إلزامية التحديثات الموقعة رقمياً وتغيير المنافذ الافتراضية:**
   * تنزيل وتثبيت أحدث برمجيات ثابتة (Firmware) معتمدة من موقع الصانع لسد الثغرات الموثقة CVE-2021-33044 و CVE-2021-33045.
   * تغيير منافذ الاتصال الافتراضية (مثل TCP 37777 و 80 و 554) إلى منافذ مخصصة وغير مألوفة للحد من أدوات المسح العشوائي للإنترنت.
+    
     ---
+    
 ## 5. المراجع والتوثيقات الرسمية العالمية (Official Intelligence & Citations)
 * National Institute of Standards and Technology (NIST NVD):
 CVE-2021-33044: Dahua Technology - Identity Authentication Bypass Vulnerability. (CVSS Score: 9.8 Critical).
@@ -149,5 +151,7 @@ Technique T1190: Exploit Public-Facing Application.
 Technique T1556: Modify Authentication Process.
 * Dahua Technology Product Security Incident Response Team (PSIRT):
 Security Advisory regarding Identity Authentication Bypass on IPC / NVR Devices.
+
 ---
+
 تم إنشاء وتدقيق هذه الوثيقة للدفاع العام وحماية خصوصية المجتمع الرقمي.
